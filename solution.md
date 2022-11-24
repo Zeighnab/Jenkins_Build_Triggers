@@ -10,3 +10,15 @@ This trigger builds based on git event(commits, push, branch creation etc).
 ![]()
 
 3. Push changes to the git repo to trigger job
+
+![]()
+
+## Poll SCM
+Jenkins tracks github commit according to schedules
+
+1. In jenkins Job Configuration, select `Poll SCM`, write the scheduled time to run the job, and save
+
+![]()
+
+Commit changes to the git repo
+

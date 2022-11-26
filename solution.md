@@ -63,7 +63,7 @@ curl -I -X POST 'http://username:APItoken@Jenkins_IP:8080/job/JOB_NAME/build?tok
 ## Post Job Trigger
 This means triggering a job after the completion of another.
 
-1. Create a new job, and select `Build after other projects`, in the job configuration. Chose the other project
+1. Create a new job, and select `Build after other projects are built`, in the job configuration. Chose the other project
 
 ![](./img/12.png)
 
